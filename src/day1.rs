@@ -35,7 +35,7 @@ pub fn solve_part_1(file_name: &str) {
     let mut distance = 0;
     pair.for_each(|(a, b)| distance += i32::abs(*a - *b));
     let input_type = file_name.rsplit('/').next().unwrap();
-    println!("Solving part 1 for {input_type} distance is: {distance}");
+    println!("Day 1 :: Solving part 1 for {input_type} distance is:\t{distance}");
 }
 
 pub fn solve_part_2(file_name: &str) {
@@ -50,5 +50,5 @@ pub fn solve_part_2(file_name: &str) {
         sum += *x * *freq.get(x).unwrap_or(&0);
     });
     let input_type = file_name.rsplit('/').next().unwrap();
-    println!("Solving part 2 for {input_type} distance is: {sum}");
+    println!("Day 1 :: Solving part 2 for {input_type} distance is:\t{sum}");
 }
