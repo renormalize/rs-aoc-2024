@@ -5,4 +5,7 @@ fn main() {
     println!("Solving Day 2!");
     rs_aoc_2024::solve_day_2();
     println!();
+    println!("Solving Day 3!");
+    rs_aoc_2024::solve_day_3();
+    println!();
 }
