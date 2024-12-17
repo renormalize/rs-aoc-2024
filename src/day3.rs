@@ -27,7 +27,7 @@ pub fn solve_part_1(file_name: &str) {
         sum += num1 * num2;
     }
     let input_type = file_name.rsplit('/').next().unwrap();
-    println!("Day 3 :: Solving part 1 for {input_type} sum:\t{sum}");
+    println!("Day 3 :: Solving part 1 for {input_type} sum:\t\t{sum}");
 }
 
 pub fn solve_part_2(file_name: &str) {
@@ -51,5 +51,5 @@ pub fn solve_part_2(file_name: &str) {
         }
     }
     let input_type = file_name.rsplit('/').next().unwrap();
-    println!("Day 3 :: Solving part 2 for {input_type} sum:\t{sum}");
+    println!("Day 3 :: Solving part 2 for {input_type} sum:\t\t{sum}");
 }
