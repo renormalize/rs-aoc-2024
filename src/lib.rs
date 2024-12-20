@@ -2,6 +2,7 @@ mod day1;
 mod day2;
 mod day3;
 mod day4;
+mod day5;
 
 fn file_path(day: i32) -> String {
     format!("input/day{}/input.txt", day)
@@ -53,4 +54,15 @@ pub fn solve_day_4() {
     day4::solve_part_2(&sample_path(4));
     // solve the puzzle
     day4::solve_part_2(&file_path(4));
+}
+
+pub fn solve_day_5() {
+    // solve the sample to check if the code is working
+    day5::solve_part_1(&sample_path(5));
+    // solve the puzzle
+    day5::solve_part_1(&file_path(5));
+    // solve the sample to check if the code is working
+    day5::solve_part_2(&sample_path(5));
+    // solve the puzzle
+    day5::solve_part_2(&file_path(5));
 }

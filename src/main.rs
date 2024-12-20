@@ -11,4 +11,7 @@ fn main() {
     println!("Solving Day 4!");
     rs_aoc_2024::solve_day_4();
     println!();
+    println!("Solving Day 5!");
+    rs_aoc_2024::solve_day_5();
+    println!();
 }
