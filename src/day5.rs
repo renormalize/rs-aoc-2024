@@ -55,6 +55,7 @@ impl Graph {
     // This DFS implementation assumes that there are no cycles in the graph
     // This method is not used to solve since the graph contains cycles
     // The solution also does not require transitivity checks
+    #[allow(dead_code)]
     fn topologically_sorted(&self) -> Vec<usize> {
         let mut visited = [false; 100];
         let mut list = Vec::<usize>::new();
